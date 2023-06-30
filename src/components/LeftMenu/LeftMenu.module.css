@@ -1,0 +1,14 @@
+.wrapper{
+    width: 250px;
+    height: 100vh;
+    border: 1px solid lightgrey;
+    border-top: none;
+}
+
+li{
+    list-style: none;
+}
+a{
+    color: #424242;
+    text-decoration: none;
+}
