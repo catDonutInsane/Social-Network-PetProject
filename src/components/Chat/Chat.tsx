@@ -79,7 +79,7 @@ export const Chat:React.FC = () => {
       <Input
         value={text}
         style={{ width: "40%" }}
-        onChange={(e) => setText(e.target.value)}
+        onChange={(event:React.ChangeEvent<HTMLInputElement>) => setText(event.currentTarget.value)}
         id="message"
         status=""
         placeholder="Enter your message"
